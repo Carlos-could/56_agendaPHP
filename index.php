@@ -36,9 +36,64 @@
         </div>
     </section>
 
-    <section class="sec_2">
-        <div class="box_3 list_contact">
-            <h1>3</h1>
+    <section class="sec_2 contactos">
+        <div class="box_3 list_contact contenedor-contactos">
+            <h2>Listado de contactos</h2>
+            <input type="text" class="buscador" placeholder="Buscar contactos">
+            <p class="total-contactos"> <span>2</span> Contactos</p>
+            <div class="contenedor-tabla">
+               <table id="listado-contactos">
+                  <thead>
+                     <tr>
+                        <th>Nombre</th>
+                        <th>Empresa</th>
+                        <th>Teléfono</th>
+                        <th>Acciones</th>
+                     </tr>
+                  </thead>
+                  <tbody>
+                     <tr>
+                        <td>Carlos Moran</td>
+                        <td>Mundo Red</td>
+                        <td>015902293086</td>
+                        <td>
+                           <a class="btn-edtar" href="#">
+                              <i class="fas fa-pen-square"></i>
+                           </a>
+                           <button data-id="1" type="button" class="btn-boorrar btn">
+                              <i class="fas fa-trash-alt"></i>
+                           </button>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>Carlos Moran</td>
+                        <td>Mundo Red</td>
+                        <td>015902293086</td>
+                        <td>
+                           <a class="btn-edtar" href="#">
+                              <i class="fas fa-pen-square"></i>
+                           </a>
+                           <button data-id="1" type="button" class="btn-boorrar btn">
+                              <i class="fas fa-trash-alt"></i>
+                           </button>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>Carlos Moran</td>
+                        <td>Mundo Red</td>
+                        <td>015902293086</td>
+                        <td>
+                           <a class="btn-edtar" href="#">
+                              <i class="fas fa-pen-square"></i>
+                           </a>
+                           <button data-id="1" type="button" class="btn-boorrar btn">
+                              <i class="fas fa-trash-alt"></i>
+                           </button>
+                        </td>
+                     </tr>
+                  </tbody>
+               </table>
+            </div>
         </div>
     </section>
 

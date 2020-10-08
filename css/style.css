@@ -15,7 +15,6 @@ html{
 }
 
 body{
-    /* background-color: var(--co3); */
     font-family: var(--fuente);
 }
 
@@ -26,10 +25,10 @@ header{
     font-size: 1.5rem;
     padding: 2rem 0 ;
     background-color: var(--co3);
-    color: var(--co1);
+    color: var(--co5);
 }
 
-h1{
+h1,h2{
     margin: 0;
     font-weight: 300;
     text-align: center;
@@ -54,32 +53,28 @@ h1{
 
 .box_1{
     background-color: var(--co2);
-    padding: 2rem 1rem;
+    padding: 3rem 1rem;
 }
 
 .box_2{
-    /* height: 50%; */
     background-color: var(--co1);
     padding: 2rem;
 }
+
 .box_2 h1 {
     color: white;
 }
-.box_3{
-    padding: 2rem;
-    background-color: var(--co3);
-}
+
 
 
 /* Formulario */
-
-
 label{
     font-size: 1.4rem;
     font-weight: 300;
 }
 input{
     height: 3rem;
+    padding-left: 1rem;
     width: 100%;
     margin: 1rem 0;
     border-radius: 10px;
@@ -89,7 +84,7 @@ input[type="submit"] {
     background-color: var(--co5);
     color: white;
     border: none;
-    border-radius: .3rem;
+    border-radius: 10px;
 }
 /* @media (min-width: 768px) {
     input[type="submit"] {
@@ -105,4 +100,28 @@ input[type="submit"] {
 .enviar{
     display: flex;
     justify-content: flex-end;
+}
+
+/* Box 3 */
+.box_3{
+    background-color: var(--co3);
+    padding: 3rem 1rem;
+
+}
+
+.box_3 h2{
+   font-size: 2rem;
+   color: var(--co5);
+}
+
+.box_3 input{
+   margin: 2rem 0;
+}
+.box_3 p{
+   text-align: center;
+   font-size: 1.5rem;
+   color: var(--co5);
+}
+table{
+   width: 100%;
 }

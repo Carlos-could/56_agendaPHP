@@ -109,6 +109,7 @@ input[type="submit"] {
     input:hover[type="submit"] {
         background-color: var(--co4);
         font-weight: bold;
+        color: var(--co5);
     }
 }
 
@@ -195,4 +196,32 @@ input[type="submit"] {
     max-width: 35%;
     margin: 0 auto;
 
+}
+
+/* Notificaciones */
+.notificacion{
+   position: fixed;
+   top: 2rem;
+   right: 2rem;
+   padding: 1rem 3rem;
+   opacity: 0;
+   transition: opacity .5s ease;
+}
+
+.visible{
+   opacity: 1;
+}
+
+.correcto {
+   background-color: var(--co2);
+   color: var(--co1);
+   border: 1px solid var(--co1);
+   border-radius: 10px;
+}
+
+.error {
+   background-color: var(--co4);
+   color: var(--co5);
+   border: 1px solid var(--co5);
+   border-radius: 10px;
 }

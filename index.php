@@ -10,28 +10,13 @@
 
         <div class="box_1 add_contact">
             <form id="contacto" action="#">
-                <div class="campos">
-                    <div class="campo">
-                        <label for="nombre">Tu nombre</label>
-                        <input type="text" id="nombre" placeholder="">
-                    </div>
-                    <div class="campo">
-                        <label for="empresa">Tu empresa</label>
-                        <input type="text" id="empresa" placeholder="">
-                    </div>
-                    <div class="campo">
-                        <label for="telefono">Tu teléfono</label>
-                        <input type="tel" id="telefono" placeholder="">
-                    </div>
-                </div>
-                <div class="campo enviar">
-                    <input type="submit" value="Añadir">
-                </div>
+                <legend></legend>
+                <?php include "inc/layout/formulario.php"; ?>
             </form>
         </div>
 
         <div class="box_2 quan_contact">
-            <h1>13 Contactos</h1>
+            <p class="total-contactos"> <span>13</span> Contactos</p>
 
         </div>
     </section>
@@ -40,9 +25,10 @@
         <div class="box_3 list_contact contenedor-contactos">
             <h2>Listado de contactos</h2>
             <input type="text" class="buscador" placeholder="Buscar contactos">
-            <p class="total-contactos"> <span>2</span> Contactos</p>
+
+
             <div class="contenedor-tabla">
-               <table id="listado-contactos">
+               <table id="listado-contactos" class="listado-contactos">
                   <thead>
                      <tr>
                         <th>Nombre</th>
@@ -57,10 +43,10 @@
                         <td>Mundo Red</td>
                         <td>015902293086</td>
                         <td>
-                           <a class="btn-edtar" href="#">
+                           <a class="btn-editar btn" href="editar.php?id=1">
                               <i class="fas fa-pen-square"></i>
                            </a>
-                           <button data-id="1" type="button" class="btn-boorrar btn">
+                           <button data-id="1" type="button" class="btn-borrar btn">
                               <i class="fas fa-trash-alt"></i>
                            </button>
                         </td>
@@ -70,10 +56,10 @@
                         <td>Mundo Red</td>
                         <td>015902293086</td>
                         <td>
-                           <a class="btn-edtar" href="#">
+                           <a class="btn-editar btn" href="editar.php?id=1">
                               <i class="fas fa-pen-square"></i>
                            </a>
-                           <button data-id="1" type="button" class="btn-boorrar btn">
+                           <button data-id="1" type="button" class="btn-borrar btn">
                               <i class="fas fa-trash-alt"></i>
                            </button>
                         </td>
@@ -83,14 +69,15 @@
                         <td>Mundo Red</td>
                         <td>015902293086</td>
                         <td>
-                           <a class="btn-edtar" href="#">
+                           <a class="btn-editar btn" href="editar.php?id=1">
                               <i class="fas fa-pen-square"></i>
                            </a>
-                           <button data-id="1" type="button" class="btn-boorrar btn">
+                           <button data-id="1" type="button" class="btn-borrar btn">
                               <i class="fas fa-trash-alt"></i>
                            </button>
                         </td>
                      </tr>
+
                   </tbody>
                </table>
             </div>
